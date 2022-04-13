@@ -1,7 +1,8 @@
 const EleventyFetch = require("@11ty/eleventy-fetch");
 
 module.exports = async function() {
-  let url = "https://api.github.com/users/aberg2";
+//  let url = "https://api.github.com/users/aberg2";
+    let url = "https://quackermeeps.herokuapp.com/meeps/api/";
 
   /* This returns a promise */
   return EleventyFetch(url, {
